@@ -49,7 +49,7 @@ const main = async () => {
 
 const calculateTxFee = (psbt: Bitcoin.Psbt, feeRate: number): number => {
   const MOCK_OUTPUT_SCRIPT = Buffer.from(
-    "51205db24348a5b6602bad8ff20b80749b09c53f87799b2c8f4e1aa3fedd5d6e0db2",
+    "51205dbxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx0db2",
     "hex"
   );
   const MOCK_OUTPUT_VALUE = 546;
